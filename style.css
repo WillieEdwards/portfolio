@@ -88,6 +88,29 @@ body {
   padding-bottom: 3rem;
 }
 
+.carousel h5 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.carousel a:hover {
+  text-decoration: none;
+}
+
+.carousel h5:hover {
+  color: #f9556f!important;
+}
+
+.carousel svg.svg-inline--fa {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: .5rem .25rem 0 0;
+}
+
+.carousel svg.svg-inline--fa:hover {
+  color: #f9556f!important;
+}
+
 /* Testimonials Section */
 
 .jumbotron {
@@ -179,7 +202,7 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: #ffffff;
 }
 
 footer svg.svg-inline--fa {
