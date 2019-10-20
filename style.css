@@ -88,7 +88,7 @@ body {
   padding-bottom: 3rem;
 }
 
-.carousel h5 {
+.carousel h4 {
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -97,13 +97,13 @@ body {
   text-decoration: none;
 }
 
-.carousel h5:hover {
+.carousel h4:hover {
   color: #f9556f!important;
 }
 
 .carousel svg.svg-inline--fa {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 3rem;
   margin: .5rem .25rem 0 0;
 }
 
