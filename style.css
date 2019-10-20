@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
@@ -16,8 +20,8 @@ body {
   background: rgba(0, 0, 0, 0.6)!important;
 }
 
-.navbar-brand img{
-  height: 2rem;
+.navbar-brand:hover {
+  color: #f9556f!important;
 }
 
 .navbar-nav li {
@@ -31,13 +35,13 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #1ebba3;
+  color: #f9556f;
 }
 
 /* Landing Page */
 
 .home-inner {
-  background-image: url("img/computers.png")
+  background-image: url("img/landing.jpg")
 }
 
 .caption {
@@ -78,6 +82,12 @@ body {
   border-radius: 50%;
 }
 
+/* Works Section */
+
+.carousel {
+  padding-bottom: 3rem;
+}
+
 /* Testimonials Section */
 
 .jumbotron {
@@ -102,23 +112,23 @@ body {
 }
 
 blockquote .svg-inline--fa {
-  color: #1ebba3;
+  color: #f9556f;
   margin: 1rem;
 }
 
 .testies-hr {
-  border-top: .5rem solid #1ebba3;
+  border-top: .1rem solid #f9556f;
 }
 
 /* Resource Section */
 
 .fixed {
-  background-image: url("img/apple.png");
+  background-image: url("img/resources.jpg");
   z-index: -1;
 }
 
 .dark {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   padding: 7rem 2rem;
 }
@@ -141,12 +151,12 @@ h3.heading {
 .heading-underline {
   width: 3rem;
   height: .2rem;
-  background-color: #1ebba3;
+  background-color: #f9556f;
   margin: 0 auto 2rem;
 }
 
 .feature svg.svg-inline--fa {
-  color: #1ebba3;
+  color: #f9556f;
 }
 
 .feature h3 {
@@ -162,7 +172,7 @@ h3.heading {
 /* Contact Section */
 
 footer {
-  background-color: #40474e;
+  background-color: #392044;
   color: white;
   padding: 2rem 0 2rem;
   margin-top: 1rem;
@@ -173,12 +183,12 @@ footer a {
 }
 
 footer svg.svg-inline--fa {
-  font-size: 1.6rem;
-  margin: 1.2rem .5rem 0 0;
+  font-size: 3rem;
+  margin: 1.5rem 1rem 0 0;
 }
 
 footer svg.svg-inline--fa:hover {
-  color: #1ebba3!important;
+  color: #f9556f!important;
 }
 
 hr.socket {
