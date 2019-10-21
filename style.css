@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -18,6 +19,10 @@ body {
   font-size: .9rem;
   letter-spacing: .1rem;
   background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
 }
 
 .navbar-brand:hover {
@@ -85,7 +90,7 @@ body {
 
 .info svg.svg-inline--fa {
   color: #f9556f;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.9rem;
 }
 
 /* Portfolio Section */
