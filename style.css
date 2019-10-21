@@ -97,28 +97,7 @@ h4 {
 /* Portfolio Section */
 
 #portfolio {
-  padding: 1.8rem 0;
-}
-
-.carousel {
-  text-transform: uppercase;
-}
-
-.btn-md {
-  border-width: medium;
-  border-radius: 0;
-  padding: .5rem 1rem;
-  font-size: .9rem;
-}
-
-.carousel svg.svg-inline--fa {
-  color: #ffffff;
-  font-size: 2.5rem;
-  margin: .5rem .25rem 0 0;
-}
-
-.carousel svg.svg-inline--fa:hover {
-  color: #f9556f!important;
+  padding-top: 1.8rem;
 }
 
 /* Testimonials Section */
@@ -143,10 +122,10 @@ blockquote .svg-inline--fa {
   border-top: .1rem solid #f9556f;
 }
 
-/* Resource Section */
+/* Build Section */
 
 .fixed {
-  background-image: url("img/resources.jpg");
+  background-image: url("img/build.jpg");
   z-index: -1;
 }
 
