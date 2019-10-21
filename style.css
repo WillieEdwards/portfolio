@@ -83,16 +83,9 @@ body {
   border-radius: 50%;
 }
 
-.bio {
-  padding-top: 1.5rem;
-}
-
-.skill {
-  padding-bottom: 1rem;
-}
-
-.skill svg.svg-inline--fa {
+.info svg.svg-inline--fa {
   color: #f9556f;
+  margin-bottom: 1.3rem;
 }
 
 /* Portfolio Section */
