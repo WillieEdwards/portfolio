@@ -97,7 +97,28 @@ h4 {
 /* Portfolio Section */
 
 #portfolio {
-  padding-top: 1.8rem;
+  padding: 2rem 0;
+}
+
+.carousel {
+  text-transform: uppercase;
+}
+
+.btn-md {
+  border-width: medium;
+  border-radius: 0;
+  padding: .5rem 1rem;
+  font-size: .9rem;
+}
+
+.carousel svg.svg-inline--fa {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin: .5rem .25rem 0 0;
+}
+
+.carousel svg.svg-inline--fa:hover {
+  color: #f9556f!important;
 }
 
 /* Testimonials Section */
