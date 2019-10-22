@@ -82,14 +82,23 @@ body {
 
 /* About Section */
 
+table {
+  width: 100%;
+}
+
 .my-pic img {
   width: 75%;
   border-radius: 50%;
 }
 
-.info svg.svg-inline--fa {
+.skills h4 {
+  text-transform: uppercase;
+  padding-bottom: .6rem;
+}
+
+.skills svg.svg-inline--fa {
   color: #f9556f;
-  margin-bottom: 1.9rem;
+  margin-bottom: 1rem;
 }
 
 /* Portfolio Section */
