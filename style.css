@@ -93,7 +93,7 @@ table {
 
 .skills h4 {
   text-transform: uppercase;
-  padding-bottom: .6rem;
+  padding-bottom: .4rem;
 }
 
 .skills svg.svg-inline--fa {
@@ -105,6 +105,10 @@ table {
 
 #portfolio {
   padding: 3rem 0 3.5rem;
+}
+
+.cards {
+  padding-top: 1.4rem;
 }
 
 .flip-card {
@@ -148,8 +152,8 @@ table {
 }
 
 .flip-card-back h4 {
-  padding-top: 3.2rem;
-  padding-bottom: 1.6rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
 }
 
 .btn-md {
